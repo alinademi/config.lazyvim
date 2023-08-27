@@ -1,11 +1,11 @@
 -- Define the Neovide settings in a table
 local neovide_settings = {
-    gui_font_default_size = 18,
-    gui_font_size = 18,
+    gui_font_default_size = 19,
+    gui_font_size = 19,
     gui_font_face = "SFMono Nerd Font",
-    transparency = 0.9,
+    transparency = 1.0,
     neovide_background_color = "#10121B",
-    neovide_scale_factor = 1.05,
+    neovide_scale_factor = 1.00,
     neovide_confirm_quit = true,
     neovide_input_use_logo = 1
 }
