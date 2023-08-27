@@ -13,6 +13,9 @@ return {
             highlights.String  = { fg = "#6faee2", bg = colors.bg }
             highlights.Comment = { fg = "#5b6aa0", bg = colors.bg }
          end,
+         on_colors = function(colors)
+            colors.bg = "#01040A"
+         end,
       },
    },
 
