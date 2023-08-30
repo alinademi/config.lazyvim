@@ -4,7 +4,7 @@ return {
    --    "rmehri01/onenord.nvim",
    --    opts = {
    --       custom_colors = {
-   --          bg = "#10121B",
+   --          -- bg = "#10121B",
    --       },
    --    },
    -- },
