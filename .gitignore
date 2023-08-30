@@ -6,3 +6,11 @@ debug
 foo.*
 *.log
 data
+
+.DS_Store
+# windows
+Thumbs.db
+
+node_modules
+vendor
+
