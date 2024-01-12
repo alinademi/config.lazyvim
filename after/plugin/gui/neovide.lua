@@ -2,7 +2,7 @@
 local neovide_settings = {
     gui_font_default_size = 19,
     gui_font_size = 19,
-    gui_font_face = "SFMono Nerd Font",
+    gui_font_face = "Liga SFMono Nerd Font",
     transparency = 1.0,
     -- neovide_background_color = "#10121B",
     neovide_scale_factor = 1.00,
@@ -53,7 +53,7 @@ if vim.g.neovide then
     vim.g.transparency = 1.0
     -- vim.g.neovide_background_color = neovide_settings.neovide_background_color .. alpha()
     vim.g.neovide_scale_factor = neovide_settings.neovide_scale_factor
-    vim.opt.linespace = 5
+    vim.opt.linespace = 20
     vim.g.neovide_confirm_quit = neovide_settings.neovide_confirm_quit
     vim.g.neovide_input_use_logo = neovide_settings.neovide_input_use_logo
 

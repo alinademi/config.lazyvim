@@ -15,6 +15,7 @@ return {
       end,
       on_colors = function(colors)
         -- colors.bg = "#0F111A"
+        colors.bg = "#10121B"
       end,
     },
   },
