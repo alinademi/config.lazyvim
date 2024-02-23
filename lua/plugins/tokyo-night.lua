@@ -5,7 +5,7 @@ return {
       -- transparent = true,
       styles = {
         functions = { italic = true },
-        -- sidebars = "transparent",
+        sidebars = "transparent",
         -- floats = "transparent",
       },
       -- for a list of highlights see https://github.com/folke/tokyonight.nvim/blob/main/extras/lua/tokyonight_night.lua
@@ -16,14 +16,15 @@ return {
       on_colors = function(colors)
         -- colors.bg = "#0F111A"
         colors.bg = "#10121B"
+        -- colors.bg = "#1B1B1D"
       end,
     },
   },
   -- Configure LazyVim to load theme
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "tokyonight-night",
-    },
-  },
+  -- {
+  --   "LazyVim/LazyVim",
+  --   opts = {
+  --     colorscheme = "tokyonight-night",
+  --   },
+  -- },
 }

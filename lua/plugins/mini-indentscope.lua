@@ -6,6 +6,6 @@ return {
          -- Delay (in ms) between event and start of drawing scope indicator
          delay = 20,
       },
-      symbol = '|',
+      symbol = '',
    }
 }
