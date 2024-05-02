@@ -6,3 +6,7 @@ vim.o.termguicolors = true
 vim.wo.relativenumber = false
 -- enable wordwrap
 vim.wo.wrap = true
+vim.g.netrw_keepdir = false -- for telescope to work with `vim /path/to/project/dir/`
+vim.opt.conceallevel = 0
+vim.opt.splitbelow = false
+vim.opt.wildmode = { "full" }

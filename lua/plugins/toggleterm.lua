@@ -1,9 +1,9 @@
 return {
-   'akinsho/toggleterm.nvim',
-   version = "*",
-   enabled = false,
-   opts = {
-      direction = "horizontal",
-      size = 15
-   },
+  -- 'akinsho/toggleterm.nvim',
+  -- version = "*",
+  -- enabled = true,
+  -- opts = {
+  --   direction = "horizontal",
+  --   size = 15
+  -- },
 }

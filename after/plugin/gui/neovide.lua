@@ -4,7 +4,7 @@ local neovide_settings = {
   gui_font_size = 16,
   gui_font_face = "Liga SFMono Nerd Font",
   transparency = 1.0,
-  -- neovide_background_color = "#10121B",
+  neovide_background_color = "#10121B",
   neovide_scale_factor = 1.00,
   neovide_confirm_quit = true,
   neovide_input_use_logo = 1,
@@ -79,7 +79,7 @@ if vim.g.neovide then
         autocmd GUIEnter * set guicursor+=r:hor20
         autocmd GUIEnter * set guicursor+=c:hor20
     ]])
-
+  --
   -- Disabling may fix some cursor visual issues
   vim.g.neovide_cursor_antialiasing = true
 

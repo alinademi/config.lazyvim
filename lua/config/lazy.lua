@@ -19,27 +19,27 @@ require("lazy").setup({
     -- https://github.com/zbirenbaum/copilot.lua for more info about copilot:
     { import = "lazyvim.plugins.extras.coding.copilot" },
     { import = "lazyvim.plugins.extras.vscode" },
-    
+    --
     -- import/override custom spec for plugins
     { import = "plugins" },
-    { import = "vscode.vscode-plugin-settings" },
+    { import = "vscode.vscode-plugin-entry" },
   },
   defaults = {
     -- By default, only LazyVim plugins will be lazy-loaded. custom plugins will load during startup.
     -- If you know what you're doing, you can set this to `true` to have all  custom plugins lazy-loaded by default.
-    lazy = false,
+    lazy = true,
     -- It's recommended to leave version=false for now, since a lot the plugin that support versioning,
     -- have outdated releases, which may break  Neovim install.
-    -- version = "*", 
+    -- version = "*",
     -- or
     -- try installing the latest stable version for plugins that support semver
     version = false, -- always use the latest git commit
-    -- enable vscode individulally in plugin config if the plugin is needed in vscode
-    vscode = false, 
+    -- enable vscode individulally in plugin config if the plugin is needed in vscode in vscode/vscode-plugin-entry.lua
+    vscode = false,
     keymaps = false,
   },
- -- install = { colorscheme = { "tokyonight", "habamax" } },
- -- automatically check for plugin updates
+  -- install = { colorscheme = { "tokyonight", "habamax" } },
+  -- automatically check for plugin updates
   checker = { enabled = true },
   performance = {
     rtp = {

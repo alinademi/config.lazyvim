@@ -1,3 +1,4 @@
 return {
-  "xiyaowong/fast-cursor-move.nvim"
+  "xiyaowong/fast-cursor-move.nvim",
+  lazy = false,
 }

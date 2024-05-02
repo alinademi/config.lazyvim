@@ -8,5 +8,5 @@ require("config.lazy")
 -- must have the vscode = true flag in its config
 -- below is custom settings only for neovim inside vscode
 if vim.g.vscode then
-    require("vscode")
+  require("vscode")
 end
